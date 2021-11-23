@@ -1,7 +1,7 @@
 import pandas as pd
 import xml.etree.ElementTree as et
 
-
+#map all xml child under root to specific DF cols 
 def XML_parser(xmlroot, df_cols): 
     rows = []
 

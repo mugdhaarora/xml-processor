@@ -1,6 +1,7 @@
 import openpyxl
 import pandas as pd
 
+#write data frames to file
 def writeToFile(result_err_df, result_msg_df, result_rules_df, fileName): 
     with pd.ExcelWriter(fileName,engine="openpyxl") as writer :
         result_err_df.to_excel(writer,sheet_name='Errors', index = False)   
