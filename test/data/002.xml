@@ -1,0 +1,4 @@
+<Errors>
+    <Error type="Unknown" process="WebService.ExperianConsumer.ExperianConsumer.readFrom" severity="ERROR" code="repoObj_065722569_16a4555278c_07fee16a4badc362" description="Failed to run REST profile: Error making web service call: Web Service Returned non-OK status 400" timestamp="Fri Aug 27 20:32:37 UTC 2021" />
+    <Error type="ExperianConsumer" process="" severity="CRITICAL" code="exp_cons_error" description="Failed making the Experian Consumer Call" timestamp="Fri Aug 27 20:32:37 UTC 2021" />
+</Errors>
